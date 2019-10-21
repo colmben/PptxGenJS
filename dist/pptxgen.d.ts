@@ -325,9 +325,11 @@ declare namespace PptxGenJS {
     border?: 'none' | string | BorderOptions | [number, number, number, number];
     color?: Color;
     colspan?: number;
+    colW?: [number];
     fill?: Color;
     margin?: number | [number, number, number, number];
     rowspan?: number;
+    rowW?: number;
     valign?: VAlign;
   }
 
