@@ -329,7 +329,7 @@ declare namespace PptxGenJS {
     fill?: Color;
     margin?: number | [number, number, number, number];
     rowspan?: number;
-    rowW?: number;
+    rowH?: number;
     valign?: VAlign;
   }
 
