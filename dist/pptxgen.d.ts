@@ -125,6 +125,7 @@ declare namespace PptxGenJS {
     legendFontSize?: number;
     legendPos?: string;
     layout?: { x: number; y: number; w: number; h: number };  // not `Coord`, must be `number` in 0..1
+    placeholder?: string
     radarStyle?: 'standard' | 'marker' | 'filled';
     showDataTable?: true | false;
     showDataTableKeys?: boolean;
